@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "admin_admin",
+    "password": "Tolulope890@",
+    "database": "admin_coursemanagerbox",
+    "port":"3306",
+    "host": "167.172.156.224",
+    "dialect": "mysql",
+    "operatorsAliases": 1
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "admin_admin",
+    "password": "Tolulope890@",
+    "database": "admin_coursemanagerbox",
+    "port":"3306",
+    "host": "167.172.156.224",
+    "dialect": "mysql",
+    "operatorsAliases": 1
+  }
+}
