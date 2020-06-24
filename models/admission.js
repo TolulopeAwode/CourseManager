@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
     startdate: DataTypes.DATE,
     enddate: DataTypes.DATE
   }, {});
-  Admission.associate = function(models) {
+  Admission.associate = (models)=> {
     Admission.hasMany(models.AdmissionProgramme, {
       foreignKey:'AdmissionId'
     });
